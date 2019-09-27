@@ -1,0 +1,10 @@
+{% extends 'layout.html' %} 
+
+{% block content %}
+
+    <div class="container">
+            <h2>Welcome to our feedback app</h2>
+            <h3>Follow this link to leave your feedback <a href="{{ url_for('submit')}}">feedback</a></h3>
+    </div>
+   
+{% endblock %}
